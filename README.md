@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: referencing a file that isn't included in the build context.  The original Dockerfile attempts to copy and run app.py, but this file is not present in the context. The solution demonstrates how to correctly include the app.py file in the Docker build context.
